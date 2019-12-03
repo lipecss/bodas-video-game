@@ -1,17 +1,29 @@
 <template>
   <div class="home">
-    <!-- <MemoryCard></MemoryCard> -->
+    <Background></Background>
+    <GameProgress></GameProgress>
+    <AboutUs></AboutUs>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import MemoryCard from '@/components/MemoryCard.vue'
+import Background from '@/components/Background.vue'
+import GameProgress from '@/components/GameProgress.vue'
+import AboutUs from '@/components/AboutUs.vue'
 
 export default {
   name: 'home',
   components: {
-    // MemoryCard
+    Background,
+    GameProgress,
+    AboutUs
   }
 }
 </script>
+
+<style scoped>
+*{
+  width: 100%;
+  height: 100%;
+}
+</style>
