@@ -19,12 +19,12 @@
                 </div>
                 <ul class="social-media">
                   <li>
-                    <a class="instagram" href="#">
+                    <a class="instagram" href="https://www.instagram.com/felipecss/">
                       <i class="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a class="twitter" href="#">
+                    <a class="twitter" href="https://twitter.com/felipecss">
                       <i class="fa fa-twitter"></i>
                     </a>
                   </li>
@@ -48,7 +48,7 @@
                 </div>
                 <ul class="social-media">
                   <li>
-                    <a class="instagram" href="#">
+                    <a class="instagram" href="https://www.instagram.com/tatiana_crivelaro/">
                       <i class="fa fa-instagram"></i>
                     </a>
                   </li>
@@ -248,25 +248,43 @@ img {
     padding: 0px;
 }
 .bride-item.layout-1.right ul.social-media li a {
-    display: block;
-    color: #fff;
-    padding: 3px;
-    width: 35px;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    margin-right: 6px;
+  display: block;
+  color: #fff;
+  padding: 3px;
+  width: 35px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-right: 6px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .bride-item.layout-1.left .line {
-      height: 320px;
-      width: 1px;
-      background-color: rgba(255, 255, 255, 0.3);
-      position: absolute;
-      right: -285px;
-      top: -40px;
+    height: 320px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    right: -285px;
+    top: -40px;
+  }
+  .bride-item.layout-1.left .img_in {
+    width: 220px;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.2);
+    margin-right: -285px;
+    float: right;
+  }
+  .bride-item.layout-1.left .line {
+    height: 235px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    right: -293px;
+    top: 83px;
+  }
+  .bride-item.layout-1.right {
+    margin-left: 251px;
   }
 }
 

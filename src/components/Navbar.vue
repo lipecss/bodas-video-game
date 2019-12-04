@@ -18,11 +18,11 @@ export default {
           text: 'Home',
           page:'/'
         },
-        {
-          id: 1,
-          text: 'About',
-          page:'/About'
-        },
+        // {
+        //   id: 1,
+        //   text: 'About',
+        //   page:'/About'
+        // },
       ]
     }
   }
