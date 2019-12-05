@@ -123,7 +123,7 @@
                       </tr>
                       <tr class="total">
                         <td>Total de Pontos</td>
-                        <td class="val">3410</td>
+                        <td class="val">3420</td>
                       </tr>
                     </tbody>
                   </table>
