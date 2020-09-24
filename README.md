@@ -1,6 +1,9 @@
-# dating
+# Dating
 
 Primeiro projeto feito com vuejs, feito um tempinho atrás para meu amor.
+
+[Link do site](https://bodas-videogame.netlify.app/)
+
 
 ## Project setup
 ```
